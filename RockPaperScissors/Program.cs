@@ -88,7 +88,8 @@ namespace RockPaperScissors
 
             }
             Console.WriteLine("Do you want to play again?(y/n)");
-            string loop=Console.ReadLine();
+                    Console.WriteLine("just for nothing this is added?(y/n)");
+                    string loop=Console.ReadLine();
             if(loop=="y")
             {
                 playAgain = true;
