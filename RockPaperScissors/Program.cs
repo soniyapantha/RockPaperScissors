@@ -88,7 +88,8 @@ namespace RockPaperScissors
 
             }
             Console.WriteLine("Do you want to play again?(y/n)");
-            string loop=Console.ReadLine();
+                    Console.WriteLine("just checking for lerning branch and merge in github?(y/n)");
+                    string loop=Console.ReadLine();
             if(loop=="y")
             {
                 playAgain = true;
